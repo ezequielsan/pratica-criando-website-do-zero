@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+/*CONFIGURAÇÕES PADRÃO ======================== */
+:root {
+    --bg-cabecalho: #252323;
+    --bg-navbar: #fff;
+    --color-text-a: #8b8b8b;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    color: var(--color-text-a);
+}
+
+ul li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+/* HEADER ============================ */
+header {
+    position: relative;
+    width: 100%;
+}
+
+#cabecalho-bg {
+    width: 100%;
+    background-color: var(--bg-cabecalho);
+}
+
+#cabecalho {
+    max-width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #logo {
+    margin-left: 10px;
+}
+
+#cabecalho #links {
+    margin-right: 10px;
+}
+
+#cabecalho #links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#cabecalho #links ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAVBAR ========================== */
+#navbar-bg {
+    width: 100%;
+    background-color: var(--bg-navbar);
+    border-bottom: 3px solid #efefef;
+}
+
+#navbar {
+    max-width: 980px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar nav {
+    display: flex;
+    margin-left: 10px;
+
+}
+
+#navbar nav ul {
+    display: flex;
+    font-size: 1.04rem;
+}
+
+#navbar nav ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+#navbar nav ul li a {
+    position: relative;
+}
+
+#navbar nav ul li a:hover {
+    color: #00bac6;
+}
+
+#navbar nav ul li a::after {
+    position: absolute;
+    margin-top: 61px;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #00bac6;
+    transition: .4s;
+}
+
+#navbar nav ul li a:hover::after,
+#navbar nav ul li a.active::after {
+    width: 100%;
+}
+
+#navbar #search input {
+    width: 190px;
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    outline: none;
+    margin-right: 10px;
+    font-size: .8rem;
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+}
