@@ -2,52 +2,233 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebWorld - Curiosidades da Web</title>
+  <meta name="description" content="Conheça o vasto mundo da internet e suas curiosidades." />
+
+  <!-- Informações de Compartilhamento -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="WebWorld - Curiosidades da Web" />
+  <meta property="og:description" content="Conheça o vasto mundo da internet e suas curiosidades." />
+  <meta property="og:url" content="http://webworld.com" />
+  <meta property="og:image" content="./img/favicon.png" />
+
+  <script src="https://kit.fontawesome.com/ea346223ba.js" crossorigin="anonymous"></script>
+
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
-    <header>
-        <div id="cabecalho-bg">
+  <!-- Header -->
+  <header>
+    <div id="cabecalho-bg">
+      <div id="cabecalho">
+        <div id="logo">
+          <a href="index.html"><img src="./img/logos/logo.png" alt="WebWorld"></a>
+        </div>
+        <div id="links">
+          <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href=""> <i class="fab fa-twitter"></i></a> </li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="navbar-bg">
+      <div id="navbar">
+        <nav>
+          <ul>
+            <li><a href="#" class="current">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="search">
+          <input type="text" placeholder="Search Something">
+        </div>
+      </div>
+    </div>
+  </header>
 
-            <div id="cabecalho">
-                <div id="logo">
-                    <img src="./img/logo.png" alt="logo">
-                </div>
+  <!-- Carrosel -->
+  <div id="slider-principal">
+    <div><img src="./img/slide/banner-1.jpg" alt="slide"></div>
+    <div><img src="./img/slide/banner-2.jpg" alt="slide"></div>
+    <div><img src="./img/slide/banner-3.jpg" alt="slide"></div>
+    <div><img src="./img/slide/banner-4.jpg" alt="slide"></div>
+    <div><img src="./img/slide/banner-5.jpg" alt="slide"></div>
+    <div><img src="./img/slide/banner-6.jpg" alt="slide"></div>
+  </div>
 
-                <div id="links">
-                    <ul>
-                        <li><a href=""><img src="./img/face.png" alt="#"></a></li>
-                        <li><a href=""><img src="./img/linkedin.png" alt="#"></a></li>
-                        <li><a href=""><img src="./img/tw.png" alt="#"></a> </li>
-                        <li><a href=""><img src="./img/rss.png" alt="#"></a></li>
-                    </ul>
-                </div>
-            </div>
+  <!-- Content -->
+  <section id="content-bg">
+    <div id="content">
+      <div id="introducao">
+        <h1>LOREM IPSUM IS SIMPLY DUMMY</h1>
+        <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make atype specimen book. It has survived not only five centuries.</p>
+      </div>
+      <div id="blocos">
+        <div class="bloco one">
+          <img src="./img/content/content-1.png" alt="Computador">
+          <h2><span>Lorem Ipsum </span>is simply</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been</p>
+        </div>
+        <div class="bloco two">
+          <img src="./img/content/content-2.png" alt="Bloco de Notas">
+          <h2><span>Lorem Ipsum </span>is simply</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been</p>
+        </div>
+        <div class="bloco three">
+          <img src="./img/content/content-3.png" alt="Galeria">
+          <h2><span>Lorem Ipsum </span>is simply</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the industry. Lorem Ipsum has been</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <section id="cards-bg">
+    <div class="cards">
+      <div class="card">
+        <img src="./img/cards/image-1.png" alt="">
+        <div class="info">
+          <h1>Mountain</h1>
+          <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/cards/image-2.png" alt="">
+        <div class="info">
+          <h1>Road</h1>
+          <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/cards/image-3.png" alt="">
+        <div class="info">
+          <h1>Protester</h1>
+          <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/cards/image-4.png" alt="">
+        <div class="info">
+          <h1>Protester</h1>
+          <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/cards/image-5.png" alt="">
+        <div class="info">
+          <h1>Protester</h1>
+          <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/cards/image-6.png" alt="">
+        <div class="info">
+          <h1>Protester</h1>
+          <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Partners -->
+  <div id="parceiros-bg">
+    <div id="parceiros">
+      <div class="parceiro">
+        <a href="http://codewars.com" target="_blank" rel="noopener noreferrer">
+          <img src="./img/parceiros/codewars.png" alt="">
+        </a>
+      </div>
+      <div class="parceiro">
+        <a href="http://codepen.io" target="_blank" rel="noopener noreferrer">
+          <img src="./img/parceiros/codepen.png" alt="">
+        </a>
+      </div>
+      <div class="parceiro">
+        <a href="http://dribble.com" target="_blank" rel="noopener noreferrer">
+          <img src="./img/parceiros/dribble.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div id="footer-bg">
+      <div id="footer">
+        <div id="posts">
+          <h2>Popular posts</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing.</p>
+          <span>25-September 2013</span>
+          <span>27-December 2015</span>
+
         </div>
 
-        <div id="navbar-bg">
-            <div id="navbar">
-                <nav>
-                    <ul>
-                        <li><a href="#" class="active">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a href="#">SERVICE</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                    </ul>
-                </nav>
-
-                <div id="search">
-                    <input type="text" placeholder="Search Something">
-                </div>
-            </div>
+        <div id="about">
+          <h2>A little about us</h2>
+          <p>TThere are many variations of passa of Lorem Ipsum available, but the my have suffered alteration in some for, by injected humour, or randomised words which don't.</p>
         </div>
-    </header>
+
+        <div id="contact">
+          <h2>Get in touch</h2>
+          <ul>
+            <li>CE - Brasil</li>
+            <li>email@gmail.com</li>
+            <li>(85) 9999-9999</li>
+          </ul>
+        </div>
+        <div id="media">
+          <h2>Social media</h2>
+          <ul>
+            <li>
+              <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="copy-bg">
+      <div id="copy">
+        <p>WebWorld © 2010 - 2021. All rights reserved.</p>
+        <a href="index.html"><img src="./img/logos/logo.png" alt="WebWorld"></a>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- JavaScript -->
+  <script src="./js/libs/jquery.js"></script>
+  <script src="./js/libs/jquery-migrate.js"></script>
+  <script src="./js/libs/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+
 </body>
 
 </html>

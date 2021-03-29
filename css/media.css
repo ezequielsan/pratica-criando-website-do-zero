@@ -1,0 +1,275 @@
+/* Estilo para Tablet ========================= */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* Configurações Globais */
+  #cabecalho,
+  #navbar,
+  #content,
+  .cards,
+  #parceiros,
+  #footer,
+  #copy {
+    max-width: 90%;
+  }
+
+  /* Navbar */
+  #navbar ul li {
+    margin-left: 20px;
+  }
+
+  #navbar nav ul li a {
+    display: flex;
+    font-size: 0.875rem;
+  }
+
+  #navbar nav ul li a::after {
+    margin-top: 57px;
+  }
+
+  #navbar #search input {
+    width: 170px;
+  }
+
+  /* Cards */
+  #cards-bg::after {
+    bottom: -45px;
+  }
+
+  .card {
+    max-width: 30%;
+    height: calc(340px - 10vw);
+  }
+
+  .card .info {
+    padding: 1rem;
+  }
+
+  .card .info h1 {
+    font-size: 1.5rem;
+  }
+
+  .card .info button {
+    padding: 0.5rem;
+  }
+
+  /* Parceiros */
+  #parceiros-bg {
+    width: 100%;
+    padding: 60px 0 30px 0;
+  }
+
+  #parceiros .parceiro {
+    margin-right: 65px;
+  }
+
+  /* Footer */
+  #footer #about {
+    display: none;
+  }
+
+  #footer #posts {
+    width: 35%;
+  }
+
+  #footer #contact {
+    width: 30%;
+    margin-left: 30px;
+  }
+
+  #footer #media {
+    width: 30%;
+    margin-left: 30px;
+  }
+
+  #footer #media ul {
+    display: inline-block;
+  }
+}
+
+/* Estilo para Smartphone ===================== */
+@media only screen and (max-width: 767px) {
+  /* Configurações Globais */
+  #cabecalho,
+  #navbar,
+  #content,
+  .cards,
+  #parceiros,
+  #footer,
+  #copy {
+    max-width: 95%;
+  }
+
+  /* Cabeçalho */
+  #cabecalho #links ul li a {
+    font-size: 1.3rem;
+  }
+
+  /* Navbar */
+  #navbar-bg {
+    padding: 20px 0 10px 0;
+  }
+
+  #navbar {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  #navbar nav {
+    order: 2;
+    margin: 0 10px;
+  }
+
+  #navbar ul li {
+    margin-left: 20px;
+  }
+
+  #navbar nav ul li a {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 600;
+  }
+
+  #navbar nav ul li a::after {
+    margin-top: 46px;
+  }
+
+  #navbar #search {
+    margin: 0 0 10px 0;
+  }
+
+  #navbar #search input {
+    width: 220px;
+  }
+
+  #navbar #search input:focus {
+    border-color: var(--color-black);
+    background-image: url("../img/icone-search.png");
+  }
+
+  /* Slide */
+  button.slick-prev,
+  button.slick-next {
+    top: 41%;
+  }
+
+  button.slick-prev {
+    width: 18px;
+    height: 37px;
+    background-image: url("../img/slide/anterior-mobile.png");
+  }
+
+  button.slick-next {
+    width: 18px;
+    height: 37px;
+    background-image: url("../img/slide/proximo-mobile.png");
+  }
+
+  /* Content */
+  #content #introducao h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  #content #blocos .bloco {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #content #blocos .bloco:nth-of-type(3) {
+    margin-bottom: 0px;
+  }
+
+  #content #blocos .bloco h2 {
+    margin: 15px 0 5px 0;
+  }
+
+  /* Section Cards */
+  #cards-bg::before {
+    top: -50px;
+  }
+
+  .card {
+    min-width: 45%;
+    height: calc(340px - 20vw);
+  }
+
+  .card:nth-of-type(3n + 1) {
+    margin-left: 0;
+  }
+
+  .card:nth-of-type(3n + 3) {
+    margin-right: 0;
+  }
+
+  .card:nth-of-type(1),
+  .card:nth-of-type(2),
+  .card:nth-of-type(3) {
+    margin-bottom: 0px;
+  }
+
+  .card:nth-of-type(1),
+  .card:nth-of-type(2),
+  .card:nth-of-type(3),
+  .card:nth-of-type(4) {
+    margin-bottom: 25px;
+  }
+
+  .card:nth-of-type(2n + 1) {
+    margin-left: 10px;
+  }
+
+  .card:nth-of-type(2n + 2) {
+    margin-right: 10px;
+  }
+
+  .card .info {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .card .info h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Parceiros */
+  #parceiros .parceiro {
+    margin-right: 25px;
+  }
+
+  /* Footer */
+  #footer {
+    justify-content: space-between;
+  }
+
+  #footer #about,
+  #footer #posts {
+    display: none;
+  }
+
+  #footer #contact {
+    width: 50%;
+    margin-left: 0px;
+  }
+
+  #footer #media {
+    width: 50%;
+    margin-left: 0px;
+  }
+
+  #footer #media ul {
+    display: inline-block;
+  }
+
+  #footer #media ul li a {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+  }
+
+  /* Copy */
+  #copy {
+    justify-content: center;
+  }
+
+  #copy p {
+    text-align: center;
+  }
+}
