@@ -5,8 +5,9 @@
 </div>
   <p align="center">:coffee: Code and coffee</p>
   <a href="/apm/l/:packageName"/>
+
 <div align="center">
-## Tecnologias
+  <h2>Tecnologias</h2>
   
   [![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
   [![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3schools.com/css/)
@@ -14,9 +15,12 @@
   
 </div>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/77730400/108779346-7c16e300-7545-11eb-91ba-fa764fb79885.png"/>
+  
+  ![Design sem nome](https://user-images.githubusercontent.com/77730400/113060098-97998d00-9186-11eb-8427-26f81c16c01e.png)
+  
 </div>
 
-
-## :computer: Project
+<div align="center">
+<h2>Project</h2>
 <p>WebWorld é um projeto com fins de aprendizagem, criado com o intuito de praticar HTML, CSS, Responsividade com CSS Flexbox e media query, e um pouco sobre Plugins Jquery.</p>
+</div>
