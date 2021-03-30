@@ -21,6 +21,6 @@
 </div>
 
 <div align="center">
-<h2>Project</h2>
+<h2>Projeto</h2>
 <p>WebWorld é um projeto com fins de aprendizagem, criado com o intuito de praticar HTML, CSS, Responsividade com CSS Flexbox e media query, e um pouco sobre Plugins Jquery.</p>
 </div>
